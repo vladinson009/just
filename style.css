@@ -4,4 +4,11 @@ h1{
 }
 body{
     background-image: url('wallpaper.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg');
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -webkit-background-repeat: no-repeat;
+        -webkit-background-position: center center;
+        
 }
