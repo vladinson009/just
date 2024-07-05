@@ -2,6 +2,7 @@ body {
   background-image: url(/img/IMG_3139.png);
   background-color: #4fa982;
   font-family: sans-serif;
+  background-image: ('img/IMG_3139.png');
 }
 h1 {
   text-align: center;
