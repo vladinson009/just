@@ -20,6 +20,7 @@ article {
 }
 input {
   display: block;
+  margin-bottom: 15px;
 }
 span {
   color: aliceblue;
