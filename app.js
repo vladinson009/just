@@ -1,5 +1,7 @@
+let form = document.querySelector('#form');
+form.addEventListener('submit', onClick);
 function onClick(e) {
   e.preventDefault();
-  console.log('it works');
+  const [name, password, btn] = Array.from(form);
+  console.log(`username ${name} with password ${password}`);
 }
-document.querySelector('#form').addEventListener('submit', onClick);
