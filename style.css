@@ -1,14 +1,14 @@
-h1{
-    text-align: center;
-    color: aqua;
+body {
+  background-image: url(/img/IMG_3139.png);
+  background-color: #4fa982;
+  font-family: sans-serif;
 }
-body{
-    background-image: url(/img/IMG_3139.png);
-    background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        -webkit-background-size: cover;
-        -webkit-background-repeat: no-repeat;
-        -webkit-background-position: center center;
-        
+h1 {
+  text-align: center;
+  color: rgb(27, 73, 73);
+  font-size: 400%;
+}
+article {
+  color: chartreuse;
+  font-size: 150%;
 }
