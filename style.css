@@ -14,3 +14,9 @@ article {
   color: chartreuse;
   font-size: 150%;
 }
+input {
+  display: block;
+}
+span {
+  color: aliceblue;
+}
