@@ -9,7 +9,9 @@ async function onClick(e) {
     age: age.value,
     gender: gender.value,
   };
-  form.clear();
+  name.value = '';
+  age.value = '';
+  gender.value = '';
   return await postData(data);
 }
 
