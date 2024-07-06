@@ -9,10 +9,10 @@ h1 {
   color: rgba(208, 217, 217, 0.553);
   font-size: 400%;
   border: 3px solid green;
-  #div {
-    display: inline-block;
-    position: absolute;
-  }
+}
+#div {
+  display: inline-block;
+  position: absolute;
 }
 h2 {
   text-align: center;
