@@ -16,4 +16,5 @@ function onSubmit(e) {
     article.textContent = text.trim();
     div.appendChild(article);
   }
+  form.reset();
 }
