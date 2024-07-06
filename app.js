@@ -2,6 +2,10 @@ let form = document.querySelector('#form');
 form.addEventListener('submit', onClick);
 function onLoad() {
   getData();
+  const div = document.getElementById('div');
+  getData().forEach((e) => {
+    div.appendChild(e);
+  });
 }
 onLoad();
 async function onClick(e) {
