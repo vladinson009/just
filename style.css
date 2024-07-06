@@ -54,4 +54,8 @@ span {
 #loren {
   font-style: bold;
   font-size: larger;
+  border: 3px solid green;
+  position: relative;
+  text-align: center;
+  width: 50;
 }
