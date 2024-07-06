@@ -27,7 +27,7 @@ h2 {
   color: aliceblue;
   border: 3px solid green;
 }
-p p {
+p {
   color: chartreuse;
   font-size: 150%;
   border: 3px solid green;
@@ -48,4 +48,10 @@ span {
 #divP {
   border: 3px solid green;
   position: relative;
+  text-align: center;
+  width: 50;
+}
+#loren {
+  font-style: bold;
+  font-size: larger;
 }
