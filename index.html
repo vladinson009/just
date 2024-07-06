@@ -14,13 +14,15 @@
   </head>
   <body>
     <h1>Hello world!</h1>
-    <h2>Welcome to my first <span id="demo-page">Demo Page</span></h2>
     <div id="div">
       <p>First paragraph</p>
       <p>Second paragraph</p>
       <p>Third paragraph</p>
+    </div>
+    <h2>Welcome to my first <span id="demo-page">Demo Page</span></h2>
+    <div>
       <li>
-        <ol>
+        <ol start="*">
           ol-1
         </ol>
         <ol>
@@ -31,17 +33,17 @@
         </ol>
       </li>
     </div>
-
-    <form name="myForm" id="form">
-      <label class="label" for="name">Name:</label
-      ><input id="name" type="text" name="name" />
-      <label class="label" for="age">Age:</label
-      ><input id="age" type="number" name="age" />
-      <label class="label" for="gender">Gender:</label
-      ><input id="gender" type="text" name="gender" />
-      <input type="submit" value="Submit" />
-    </form>
-
+    <div>
+      <form name="myForm" id="form">
+        <label class="label" for="name">Name:</label
+        ><input id="name" type="text" name="name" />
+        <label class="label" for="age">Age:</label
+        ><input id="age" type="number" name="age" />
+        <label class="label" for="gender">Gender:</label
+        ><input id="gender" type="text" name="gender" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

@@ -9,6 +9,10 @@ h1 {
   color: rgba(208, 217, 217, 0.553);
   font-size: 400%;
   border: 3px solid green;
+  #div {
+    display: inline-block;
+    position: absolute;
+  }
 }
 h2 {
   text-align: center;
@@ -17,7 +21,7 @@ h2 {
   color: aliceblue;
   border: 3px solid green;
 }
-article {
+p {
   color: chartreuse;
   font-size: 150%;
   border: 3px solid green;
@@ -28,7 +32,7 @@ input {
   border: 3px solid green;
 }
 span {
-  color: rgba(53, 23, 205, 0.47);
+  color: rgba(53, 23, 205, 0.848);
 }
 .label {
   color: aliceblue;
