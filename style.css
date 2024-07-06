@@ -8,16 +8,17 @@ h1 {
   text-align: center;
   color: rgba(208, 217, 217, 0.553);
   font-size: 400%;
+  width: 50%;
   border: 3px solid green;
   display: inline-block;
   position: relative;
-  left: 15%;
-  width: 50%;
+  left: 25%;
 }
 #div {
+  border: 3px solid green;
   display: inline-block;
   position: absolute;
-  right: 5%;
+  right: 3%;
 }
 h2 {
   text-align: center;
@@ -26,15 +27,17 @@ h2 {
   color: aliceblue;
   border: 3px solid green;
 }
-p {
+p p {
   color: chartreuse;
   font-size: 150%;
   border: 3px solid green;
+  display: inline list-item;
+  margin: 15px;
 }
 input {
   display: block;
-  margin-bottom: 15px;
-  border: 3px solid green;
+  margin-bottom: 5px;
+  background-color: yellowgreen;
 }
 span {
   color: rgba(53, 23, 205, 0.848);
