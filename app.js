@@ -2,6 +2,12 @@ const form = document.querySelector('#form');
 const div = document.getElementById('div');
 const arr = Array.from(form);
 
-for (let i = 0; i < arr.length - 2; i++) {
-  div.appendChild(arr[i]);
+form.addEventListener('submit', onSubmit);
+
+function onSubmit() {
+  for (let i = 0; i < arr.length - 2; i++) {
+    const article = document.createElement('article');
+    article.textContent = arr[i];
+    div.appendChild(article);
+  }
 }
