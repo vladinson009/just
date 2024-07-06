@@ -8,4 +8,5 @@ function onSubmit(e) {
   e.preventDefault();
 
   form.reset();
+  alert('Congrats! You did nothing...');
 }
