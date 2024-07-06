@@ -1,13 +1,13 @@
 let form = document.querySelector('#form');
 form.addEventListener('submit', onClick);
-function onLoad() {
-  getData();
+async () => {
+  const data = await getData();
   const div = document.getElementById('div');
-  getData().forEach((e) => {
+  data.forEach((e) => {
     div.appendChild(e);
   });
-}
-onLoad();
+};
+
 async function onClick(e) {
   e.preventDefault();
   const [name, age, gender] = Array.from(form);
