@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="node_modules/parse/dist/parse.min.js"></script>
+
+    <script>
+      Parse.serverURL = 'https://parseapi.back4app.com'; // This is your Server URL
+      // Remember to inform BOTH the Back4App Application ID AND the JavaScript KEY
+      Parse.initialize(
+        'au5ZfMxfafCmKs574dAyu0QTnNM1uOEvT9bTr4US', // This is your Application ID
+        'QxvljoBsWVgbxVftHDudSlcmG8fzyaEyNEWn93ik' // This is your Javascript key
+      );
+    </script>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8" />
